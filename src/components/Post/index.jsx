@@ -12,7 +12,6 @@ export function Post({ author, publishedAt, content }) {
   ])
   const [newCommentText, setNewCommentText] = useState('')
 
-
   // formatando a data
   const publishedAtFormatted = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'", {
     locale: ptBR,
